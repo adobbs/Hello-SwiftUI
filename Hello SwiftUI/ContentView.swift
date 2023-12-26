@@ -16,6 +16,9 @@ struct ContentView: View {
             Text("Hello, Andy!")
                 .font(.title)
                 .foregroundColor(Color.pink)
+            Button("Tap me") {
+                    print("Hello")
+                }
         }
         .padding()
     }
